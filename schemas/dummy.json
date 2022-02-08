@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "6201b420f93df0fc38007ce7"
+  },
+  "name": "Debdut Biswas",
+  "phone": "7003153094",
+  "createdAt": {
+    "$date": "2022-02-08T00:06:56.218Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:06:56.218Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b437f93df0fc38007cf1"
+  },
+  "name": "Debaloy Biswas",
+  "phone": "9091917512",
+  "createdAt": {
+    "$date": "2022-02-08T00:07:19.816Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:07:19.816Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b442f93df0fc38007cf8"
+  },
+  "name": "Debraj Biswas",
+  "phone": "9838857116",
+  "createdAt": {
+    "$date": "2022-02-08T00:07:30.494Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:07:30.494Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b44df93df0fc38007d00"
+  },
+  "name": "Debdut",
+  "phone": "7003153094",
+  "createdAt": {
+    "$date": "2022-02-08T00:07:41.363Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:07:41.363Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b453f93df0fc38007d06"
+  },
+  "name": "Debaloy",
+  "phone": "9091917512",
+  "createdAt": {
+    "$date": "2022-02-08T00:07:47.667Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:07:47.667Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b45ef93df0fc38007d0e"
+  },
+  "name": "Debraj",
+  "phone": "9838857116",
+  "createdAt": {
+    "$date": "2022-02-08T00:07:58.195Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:07:58.195Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b46cf93df0fc38007d16"
+  },
+  "name": "Rupam",
+  "phone": "7003153094",
+  "createdAt": {
+    "$date": "2022-02-08T00:08:12.701Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:08:12.701Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b476f93df0fc38007d1d"
+  },
+  "name": "Pritam",
+  "phone": "9091917512",
+  "createdAt": {
+    "$date": "2022-02-08T00:08:22.443Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:08:22.443Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b480f93df0fc38007d25"
+  },
+  "name": "Suvam",
+  "phone": "9838857116",
+  "createdAt": {
+    "$date": "2022-02-08T00:08:32.842Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:08:32.842Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b48af93df0fc38007d2b"
+  },
+  "name": "Rupam Biswas",
+  "phone": "7003153094",
+  "createdAt": {
+    "$date": "2022-02-08T00:08:42.673Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:08:42.673Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b493f93df0fc38007d32"
+  },
+  "name": "Pritam Biswas",
+  "phone": "9091917512",
+  "createdAt": {
+    "$date": "2022-02-08T00:08:51.660Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:08:51.660Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6201b49df93df0fc38007d38"
+  },
+  "name": "Suvam Biswas",
+  "phone": "9838857116",
+  "createdAt": {
+    "$date": "2022-02-08T00:09:01.800Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-08T00:09:01.800Z"
+  },
+  "__v": 0
+}]

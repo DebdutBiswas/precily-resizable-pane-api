@@ -1,0 +1,43 @@
+{
+  "name": "precily-resizable-pane-api",
+  "version": "1.0.0",
+  "description": "CRUD API for precily-resizable-pane",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "CHOKIDAR_USEPOLLING=true nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express-jwt": "^6.1.0",
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2",
+    "mongoose": "^6.1.4",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DebdutBiswas/precily-resizable-pane-api.git"
+  },
+  "keywords": [
+    "crud api",
+    "express crud api",
+    "simple crud api",
+    "nodejs crud",
+    "precily resizable pane api"
+  ],
+  "author": "Debdut Biswas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DebdutBiswas/precily-resizable-pane-api/issues"
+  },
+  "homepage": "https://github.com/DebdutBiswas/precily-resizable-pane-api#readme"
+}

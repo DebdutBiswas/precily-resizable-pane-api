@@ -40,6 +40,9 @@ build/Release
 # Secret directories
 secrets/
 
+# Deploy configs
+Procfile
+
 # Dependency directories
 node_modules/
 jspm_packages/

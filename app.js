@@ -6,6 +6,7 @@ const db = require('./configs/database');
 
 const contactsRouter = require('./routes/contacts');
 
+// Mongoose database connection and authentication
 db.authenticate().then(() => {
         console.log('Database connected...');
     }).catch(err => {
@@ -49,6 +50,7 @@ app.use('/*', (req, res)=>{
     })
 });
 
+// Express HTTP listening
 app.listen(port, () => {
     console.log(`CRUD API server is listening on port ${port}`);
 });

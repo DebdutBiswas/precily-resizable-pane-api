@@ -7,6 +7,7 @@ Mongoose.Promise = global.Promise;
 
 const dbUri = process.env.DB_URI || 'mongodb://localhost:27017/phone_book';
 
+// Mongoose authenticate polyfill wrapper
 Mongoose.authenticate = function() {
     return new Promise((res, rej) => {
         Mongoose.connect(dbUri, {

@@ -10,6 +10,7 @@ const _contactsModel = require('../models/contacts');
 const contactsModel = _contactsModel(db);
 // const contactsModel = _contactsModel(db.mongoose);
 
+// Get all contacts, request type: GET, response type: JSON
 exports.getAllContacts = async (req, res) => {
     await contactsModel.find({})
     .then(contacts => {
@@ -30,6 +31,7 @@ exports.getAllContacts = async (req, res) => {
     });
 };
 
+// Add new contact, request type: POST, request body: JSON, response type: JSON
 exports.addNewContact = async (req, res) => {
     if (!req.body.name || !req.body.phone) {
         return res.status(400).send({
@@ -62,6 +64,7 @@ exports.addNewContact = async (req, res) => {
     });
 };
 
+// Get contact by id, request type: GET, response type: JSON
 exports.getContactById = async (req, res) => {
     const id = req.params.id?.toString().trim() ?? '';
 
@@ -90,6 +93,7 @@ exports.getContactById = async (req, res) => {
     }
 };
 
+// Update contact by id, request type: PUT, request body: JSON, response type: JSON
 exports.updateContactById = async (req, res) => {
     if (!req.body.name || !req.body.phone) {
         return res.status(400).send({
@@ -130,6 +134,7 @@ exports.updateContactById = async (req, res) => {
     }
 };
 
+// Delete contact by id, request type: DELETE, response type: JSON
 exports.deleteContactById = async (req, res) => {
     const id = req.params.id?.toString().trim() ?? '';
 
